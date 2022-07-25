@@ -53,12 +53,9 @@ h1 {
   border-right: 20px solid #cc9966;
   background-color: #d9b38c;
   overflow-y: scroll;
+  scrollbar-width: none;
   line-height: 0;
 }
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 button {
   border-radius: 10px;
   border: 1.3px solid gray;
