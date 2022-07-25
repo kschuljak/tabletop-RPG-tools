@@ -59,6 +59,9 @@ h1 {
   overflow-y: scroll;
   scrollbar-width: none;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
 #dice-flex-container {
   width: 100%;
   box-sizing: border-box;
