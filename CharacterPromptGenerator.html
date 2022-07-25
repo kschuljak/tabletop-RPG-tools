@@ -1,16 +1,25 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600;700&family=My+Soul&family=Splash&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Character Prompt Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600;700&family=My+Soul&family=Splash&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- div for background letter -->
+        <div class='bgtext'>
+        </div>
+        <!-- end background -->
 
-<body>
-<!-- div for background letter -->
-<div class='bgtext'>
-</div>
-<!-- end background -->
-
-<div class="box" id="flex-container">
-    <h1>Characters</h1>
-    <button id="btn" onclick="createCharacter()">Generate a New Character Prompt</button>
-    <p id="placeholder"></p>
-</div> <!-- ends flex-container -->
-</body>
+        <div class="box" id="flex-container">
+            <h1>Characters</h1>
+            <button id="btn" onclick="createCharacter()">Generate a New Character Prompt</button>
+            <p id="placeholder"></p>
+        </div> <!-- ends flex-container -->
+    </body>
+    
+</html>
