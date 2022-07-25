@@ -1,0 +1,92 @@
+/* Random Loot Generator - CSS */
+html {
+  height: 100%;
+}
+body {
+  background-color: #f2e6d9;
+  margin: 0;
+  top: 0;
+  height: 100%;
+  font-family: 'Splash', cursive;
+  font-size: 45px;
+  overflow: hidden;
+}
+.bgtext {
+  position: relative;
+}
+.bgtext:after {
+  margin: 3rem;
+  content:"It's been a month since I last set foot in the small village of Riverdale. I'm already looking forward to my triumphant return, pockets full of gold and gems. I can't wait to relax and put my feet up, it's been a hard few weeks on the road, and my blisters have blisters at this point. I wonder when I shall next see home.  The sweeping plains, golden wheat, the scent of fresh-baked bread. The memory is enough to make my stomach growl, living off meager rations and hard tack as I've been the last few weeks. What I would give for a fresh baked loaf of bread right now, a hearty venison stew, gods know I'd settle for a bowl of warm porridge at this point. But I've been trying to focus on the goal, it seems so close at hand now.  Just a few more days, and then we should be reaching the summit. The mountain towers before us like a monolith, it's peak hidden behind a veil of clouds.  The road has been treacherous, falling rocks almost took out our best pony. Don't know what we would have done then, it's already going to be a challenge just carrying the loot back home between the four of us and our horses. As we eat through our rations, our saddlebags gain more and more space to load up with the loot we find.  I'm hoping for some gold. Rumors say there's an ancient magical artifact that was lost in these mountains some years ago, possibly carried off by a dragon after it sacked the royal treasury. If we can find the dragons hoard, we'll be set for life!  Surely it can't still be alive after all this time? I sure hope not!  We may be good fighters, but against a dragon?  Pure madness... although I bet old Jim would give it a run for it's money at least... wizard is as mad as a hatter, but that fireball of his is surely something to fear. Maybe we should try to find an alchemist to make us some burn salve if we plan to keep traveling together though, there have been a few too many near misses for comfort. My eyebrows are still singed from our last bandit encounter, and I don't think I'll ever get the soot stains out of my tunic. At least Yunkantha is a handy shot with her bow, it's served us well both in keeping meat in the pot and in keeping the bandits at bay. If only she would shoot something other than squirrels though, but I guess being so far up the mountain means no venison will be on the menu anytime soon. Hopefully the haul this time will be a bit more lucrative, last time I spent so much time casing the mayors house and almost got my head cut clean off by that trap, and the only thing in his locked safe was a single shoe.  One shoe!  Who keeps a shoe under lock and key like that? It wasn't even a particularly nice shoe either.  Maybe if it was made of gold or encrusted with rubies or something, sure, then keeping a shoe in a safe under heavy guard like that would make sense.  But a worn-out silk slipper that's obviously seen better days?  I woudn't have bought it for a copper at the market... hell, I wouldn't have picked it up for free if I saw it laying on the side of the road.  The wealthy are something else, more money than sense if you ask me.  But I won't fall into that trap once I strike it big.  No, I'll spend my fortune on buying myself a nice homestead and hiring some farmhands so that I can spend my hours building up a descent trade business.  I doubt the thieves guild would dare to mess with me after all our past associations... and if they decide otherwise, I've enough dirt on the guildmaster to make them rethink such decisions. ";
+  position: absolute;
+  justify-content: center;
+  justify-text: center;
+  top: -250px;
+  left: -10px;
+  width: 150%;
+  overflow: hidden;
+  z-index: -1;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  color: #e6ccb3;
+  opacity: 0.3;
+}
+
+h1 {
+  font-family: 'My Soul', cursive;
+  font-size: 90px;
+  color: #392613;
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  padding: 5px;
+  margin: 0 auto 0 auto;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  border-left: 20px solid #cc9966;
+  border-right: 20px solid #cc9966;
+  background-color: #d9b38c;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+button {
+  border-radius: 2px;
+  border: 1.3px solid gray;
+  padding: 0px 5px 0px 5px;
+  margin: 13px 5px 5px 5px;
+  font-family: serif;
+  font-size: 26px;
+  width: 140px;
+  height: 115px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 600;
+  background-color: #86592d;
+  color: #ecd9c6;
+}
+button:hover {
+  background-color: #604020;
+}
+#placeholder {
+  width: 1000px;
+  padding: 0px 30px 0px 30px;
+  margin: 0px;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  color: #261a0d;
+  align-items: top;
+  justify-content: center;
+}
+.item-break {
+  font-size: 2em;
+  padding: 0;
+  opacity: 1;
+  color: #86592d;
+}
