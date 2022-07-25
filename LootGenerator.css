@@ -56,6 +56,9 @@ h1 {
   overflow-y: scroll;
   scrollbar-width: none;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
 button {
   border-radius: 2px;
   border: 1.3px solid gray;
