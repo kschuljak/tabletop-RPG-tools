@@ -56,6 +56,9 @@ h1 {
   scrollbar-width: none;
   line-height: 0;
 }
+::-webkit-scrollbar {
+  width: 0px;
+}
 button {
   border-radius: 10px;
   border: 1.3px solid gray;
