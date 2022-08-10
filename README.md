@@ -17,7 +17,7 @@ PT 2: LOOT GENERATOR
 - randomly generates a list of loot between 1 to 3 items
 - loot arrays are weighted and organized by category, so that items from certain arrays are more commonly generated than others
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
-- each subarray is weighted to make some categories more commonly chosen from that others
+- each subarray is weighted to make some categories more commonly chosen from than others
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
