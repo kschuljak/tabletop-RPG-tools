@@ -24,9 +24,8 @@ PT 2: LOOT GENERATOR
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
 
-![getloot2](https://user-images.githubusercontent.com/47723396/183961655-30ed06b4-2b07-46c9-978f-56a08f832170.JPG)
-![getloot3](https://user-images.githubusercontent.com/47723396/183961661-eb9ca0d6-1abd-4915-a665-61fdabded36f.JPG)
-![getloot4](https://user-images.githubusercontent.com/47723396/183961683-9aa408c5-97f4-4e61-a56e-7ba7d9288764.JPG)
+![getlootexamples](https://user-images.githubusercontent.com/47723396/183963509-25823c31-071e-40ec-8070-0390966b70cd.png)
+
 
 PT 3: DICE ROLLER
 -randomly generates a dice roll, from a D-4 to a D-100
