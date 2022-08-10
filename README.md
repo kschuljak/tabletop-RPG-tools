@@ -31,7 +31,8 @@ https://codepen.io/collection/aMwZQo
 
 ![rollthedice](https://user-images.githubusercontent.com/47723396/183961885-4b4c7e03-98d7-424d-a849-f2f3f4598510.JPG)
 
-![dicerollexamples](https://user-images.githubusercontent.com/47723396/184031976-7d0e76ca-a558-402a-908c-c338c76bde67.png)
+![dicerollexamples](https://user-images.githubusercontent.com/47723396/184032179-18328cfa-0343-4941-8502-0554a3482346.png)
+
 
 
 
