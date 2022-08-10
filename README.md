@@ -50,8 +50,6 @@ https://codepen.io/collection/aMwZQo
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
 ```js
-    function getLootArray() {
-    
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
       console.log('lootArray = ' + lootArray);
 
@@ -62,20 +60,14 @@ https://codepen.io/collection/aMwZQo
       if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
         lootArray = trinkets.rare;
       }
-      console.log('lootArray = ' + lootArray);
-      return lootArray;
-    }
   
+    // ...
     let chestTotal = Math.floor(Math.random() * 3) + 1;
-    console.log('chestTotal = ' + chestTotal);
     let loot = ['<div class="item-break"> ~ </div>'];
     for (let i = 0; i < chestTotal; i++) {
-      console.log('i = ' + i);
       let genLootArray = getLootArray();
-      console.log('genLootArray = ' + genLootArray);
       loot += genLootArray[Math.floor(Math.random() * genLootArray.length)];
       loot += ' <br> <div class="item-break"> ~ </div>'
-      console.log('loot = ' + loot);
     }
     return loot;
   }
