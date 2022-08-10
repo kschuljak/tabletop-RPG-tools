@@ -58,18 +58,7 @@ https://codepen.io/collection/aMwZQo
       if (lootArray <= commonWeapons) {
         lootArray = weapons.common;
       }
-      if (lootArray <= (commonWeapons + rareWeapons)) {
-        lootArray = weapons.rare;
-      }
-      if (lootArray <= (commonWeapons + rareWeapons + commonClothing)) {
-        lootArray = clothing.common;
-      }
-      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing)) {
-        lootArray = clothing.rare;
-      }
-      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets)) {
-        lootArray = trinkets.common;
-      }
+      // ...
       if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
         lootArray = trinkets.rare;
       }
