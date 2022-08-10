@@ -54,9 +54,50 @@ https://codepen.io/collection/aMwZQo
 
 # LOOT GENERATOR
 - randomly generates a list of loot between 1 to 3 items
-- loot is weighted by category, so that items from certain arrays are more commonly generated than others (for example, items from 'weapons.common' are much more likley to appear than items from 'trinkets.rare'
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
+```js
+    function getLootArray() {
+    
+      let lootArray = Math.floor(Math.random()*lootOptionTotal);
+      console.log('lootArray = ' + lootArray);
+
+      if (lootArray <= commonWeapons) {
+        lootArray = weapons.common;
+      }
+      if (lootArray <= (commonWeapons + rareWeapons)) {
+        lootArray = weapons.rare;
+      }
+      if (lootArray <= (commonWeapons + rareWeapons + commonClothing)) {
+        lootArray = clothing.common;
+      }
+      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing)) {
+        lootArray = clothing.rare;
+      }
+      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets)) {
+        lootArray = trinkets.common;
+      }
+      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
+        lootArray = trinkets.rare;
+      }
+      console.log('lootArray = ' + lootArray);
+      return lootArray;
+    }
+  
+    let chestTotal = Math.floor(Math.random() * 3) + 1;
+    console.log('chestTotal = ' + chestTotal);
+    let loot = ['<div class="item-break"> ~ </div>'];
+    for (let i = 0; i < chestTotal; i++) {
+      console.log('i = ' + i);
+      let genLootArray = getLootArray();
+      console.log('genLootArray = ' + genLootArray);
+      loot += genLootArray[Math.floor(Math.random() * genLootArray.length)];
+      loot += ' <br> <div class="item-break"> ~ </div>'
+      console.log('loot = ' + loot);
+    }
+    return loot;
+  }
+```
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
 
