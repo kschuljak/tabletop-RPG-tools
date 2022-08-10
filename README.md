@@ -22,21 +22,13 @@ https://codepen.io/collection/aMwZQo
     return output;
   }
   
-  let descripGenerated = randomize(descripOptions);
   // ...
+  let secretGenerated = randomize(secretOptions);
   let secretAboutGenerated = randomize(secretAboutOptions);
-  let textbreak = '<div class="item-break"> ~ </div>'
 
   return (
-    '<br> <div class="charName">' + sylGenerated + '</div> 
-    <br> 
-    <div class="charName2">' + 'The ' + descripGenerated + '</div>' + textbreak 
-    + raceGenerated + " " + classGenerated + textbreak 
-    + emoteGenerated + " " + thingGenerated + textbreak 
-    + 'involved with ' + groupGenerated + textbreak 
-    + 'enjoys ' + hobbyGenerated + textbreak 
-    + habitGenerated + textbreak 
-    + secretGenerated + " " + secretAboutGenerated + textbreak
+    // ...
+    + secretGenerated + " " + secretAboutGenerated
   );
 ```
 
