@@ -63,14 +63,10 @@ https://codepen.io/collection/aMwZQo
   
     // ... (code omitted for example) ...
     let chestTotal = Math.floor(Math.random() * 3) + 1;
-    let loot = ['<div class="item-break"> ~ </div>'];
     for (let i = 0; i < chestTotal; i++) {
       let genLootArray = getLootArray();
       loot += genLootArray[Math.floor(Math.random() * genLootArray.length)];
-      loot += ' <br> <div class="item-break"> ~ </div>'
     }
-    return loot;
-  }
 ```
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
