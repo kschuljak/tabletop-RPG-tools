@@ -35,7 +35,9 @@ https://codepen.io/collection/aMwZQo
   let textbreak = '<div class="item-break"> ~ </div>'
 
   return (
-    '<br> <div class="charName">' + sylGenerated + '</div> <br> <div class="charName2">' + 'The ' + descripGenerated + '</div>' 
+    '<br> <div class="charName">' + sylGenerated + '</div> 
+    <br> 
+    <div class="charName2">' + 'The ' + descripGenerated + '</div>' 
     + textbreak 
     + raceGenerated + " " + classGenerated 
     + textbreak 
