@@ -34,11 +34,21 @@ https://codepen.io/collection/aMwZQo
   let secretAboutGenerated = randomize(secretAboutOptions);
   let textbreak = '<div class="item-break"> ~ </div>'
 
-  return ('<br> <div class="charName">' + sylGenerated + '</div> <br> <div class="charName2">' 
-    + 'The ' + descripGenerated + '</div>' + textbreak + raceGenerated + " " + classGenerated 
-    + textbreak + emoteGenerated + " " + thingGenerated + textbreak + 'involved with ' 
-    + groupGenerated + textbreak + 'enjoys ' + hobbyGenerated + textbreak + habitGenerated 
-    + textbreak + secretGenerated + " " + secretAboutGenerated + textbreak);
+  return (
+    '<br> <div class="charName">' + sylGenerated + '</div> <br> <div class="charName2">' + 'The ' + descripGenerated + '</div>' 
+    + textbreak 
+    + raceGenerated + " " + classGenerated 
+    + textbreak 
+    + emoteGenerated + " " + thingGenerated 
+    + textbreak 
+    + 'involved with ' + groupGenerated 
+    + textbreak 
+    + 'enjoys ' + hobbyGenerated 
+    + textbreak 
+    + habitGenerated 
+    + textbreak 
+    + secretGenerated + " " + secretAboutGenerated 
+    + textbreak);
   };
 ```
 
