@@ -50,8 +50,8 @@ https://codepen.io/collection/aMwZQo
     // ... (code omitted for example) ...
     
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
-      if (lootArray <= commonWeapons) {
-        lootArray = weapons.common;
+      if (lootArray <= commonWeapons) { 
+        lootArray = weapons.common; 
       }
       if (lootArray <= (commonWeapons + rareWeapons)) {
         lootArray = weapons.rare;
