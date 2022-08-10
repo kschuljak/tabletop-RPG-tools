@@ -56,7 +56,7 @@ https://codepen.io/collection/aMwZQo
       if (lootArray <= commonWeapons) {
         lootArray = weapons.common;
       }
-      // ...
+      // ... (etc - code condensed for example)...
       if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
         lootArray = trinkets.rare;
       }
