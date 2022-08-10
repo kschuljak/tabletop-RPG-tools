@@ -44,9 +44,7 @@ https://codepen.io/collection/aMwZQo
 ```js
     let commonWeapons = 70;
     let rareWeapons = 30;
-    // ... (etc - code omitted for example) ...
-    let rareTrinkets = 5;
-    let lootOptionTotal = commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets;
+    let lootOptionTotal = commonWeapons + rareWeapons;
     // ... (code omitted for example) ...
     
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
@@ -55,10 +53,6 @@ https://codepen.io/collection/aMwZQo
       }
       if (lootArray <= (commonWeapons + rareWeapons)) {
         lootArray = weapons.rare;
-      }
-      // ... (etc - code omitted for example) ...
-      if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
-        lootArray = trinkets.rare;
       }
   
     // ... (code omitted for example) ...
