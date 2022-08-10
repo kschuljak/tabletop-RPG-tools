@@ -11,9 +11,7 @@ PT 1: CHARACTER GENERATOR
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
 
-![charactergenerator2](https://user-images.githubusercontent.com/47723396/183959924-ef8fa3fa-e4c4-483e-9c39-6e7b7395c9f7.JPG)
-![charactergenerator3](https://user-images.githubusercontent.com/47723396/183959951-8d6bf1f0-d933-4ffc-a5a8-792171d775b2.JPG)
-![charactergenerator4](https://user-images.githubusercontent.com/47723396/183959968-7fd49d6e-67d4-4b0b-9acf-8a29e85ec11f.JPG)
+![getcharacterexamples](https://user-images.githubusercontent.com/47723396/183964057-8b1e005b-7589-4234-952a-93ac90fbc4a7.png)
 
 PT 2: LOOT GENERATOR
 -randomly generates a list of loot between 1 to 3 items
