@@ -37,21 +37,14 @@ https://codepen.io/collection/aMwZQo
   return (
     '<br> <div class="charName">' + sylGenerated + '</div> 
     <br> 
-    <div class="charName2">' + 'The ' + descripGenerated + '</div>' 
-    + textbreak 
-    + raceGenerated + " " + classGenerated 
-    + textbreak 
-    + emoteGenerated + " " + thingGenerated 
-    + textbreak 
-    + 'involved with ' + groupGenerated 
-    + textbreak 
-    + 'enjoys ' + hobbyGenerated 
-    + textbreak 
-    + habitGenerated 
-    + textbreak 
-    + secretGenerated + " " + secretAboutGenerated 
-    + textbreak);
-  };
+    <div class="charName2">' + 'The ' + descripGenerated + '</div>' + textbreak 
+    + raceGenerated + " " + classGenerated + textbreak 
+    + emoteGenerated + " " + thingGenerated + textbreak 
+    + 'involved with ' + groupGenerated + textbreak 
+    + 'enjoys ' + hobbyGenerated + textbreak 
+    + habitGenerated + textbreak 
+    + secretGenerated + " " + secretAboutGenerated + textbreak
+  );
 ```
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
