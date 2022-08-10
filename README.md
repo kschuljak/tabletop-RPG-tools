@@ -23,14 +23,7 @@ https://codepen.io/collection/aMwZQo
   }
   
   let descripGenerated = randomize(descripOptions);
-  let raceGenerated = randomize(raceOptions);
-  let classGenerated = randomize(classOptions);
-  let emoteGenerated = randomize(emoteOptions);
-  let thingGenerated = randomize(thingOptions);
-  let groupGenerated = randomize(groupOptions);
-  let hobbyGenerated = randomize(activityOptions);
-  let habitGenerated = randomize(habitOptions);
-  let secretGenerated = randomize(secretOptions);
+  // ...
   let secretAboutGenerated = randomize(secretAboutOptions);
   let textbreak = '<div class="item-break"> ~ </div>'
 
