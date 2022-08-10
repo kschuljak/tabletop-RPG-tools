@@ -16,6 +16,27 @@ https://codepen.io/collection/aMwZQo
   return outputName;  
 ```
 - much of the flavortext is similarly generated, with each section taking a prompt from one array and combining it with an option from a second array to increase the variety of responses
+```js
+  const randomize = (list) => {
+    let output = list[Math.floor(Math.random() * list.length)];
+    return output;
+  }
+  
+  let descripGenerated = randomize(descripOptions);
+  let raceGenerated = randomize(raceOptions);
+  let classGenerated = randomize(classOptions);
+  let emoteGenerated = randomize(emoteOptions);
+  let thingGenerated = randomize(thingOptions);
+  let groupGenerated = randomize(groupOptions);
+  let hobbyGenerated = randomize(activityOptions);
+  let habitGenerated = randomize(habitOptions);
+  let secretGenerated = randomize(secretOptions);
+  let secretAboutGenerated = randomize(secretAboutOptions);
+  let textbreak = '<div class="item-break"> ~ </div>'
+
+  return ('<br> <div class="charName">' + sylGenerated + '</div> <br> <div class="charName2">' + 'The ' + descripGenerated + '</div>' + textbreak + raceGenerated + " "     + classGenerated + textbreak + emoteGenerated + " " + thingGenerated + textbreak + 'involved with ' + groupGenerated + textbreak + 'enjoys ' + hobbyGenerated +         textbreak + habitGenerated + textbreak + secretGenerated + " " + secretAboutGenerated + textbreak);
+  };
+```
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
 
