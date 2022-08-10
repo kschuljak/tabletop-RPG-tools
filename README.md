@@ -33,8 +33,7 @@ PT 3: DICE ROLLER
 
 ![rollthedice](https://user-images.githubusercontent.com/47723396/183961885-4b4c7e03-98d7-424d-a849-f2f3f4598510.JPG)
 
-![rollthedice2](https://user-images.githubusercontent.com/47723396/183961898-3f7ce26c-45b4-4c9b-8796-0263f69ee9a0.JPG)
-![rollthedice3](https://user-images.githubusercontent.com/47723396/183961917-9ce22e5c-10ca-419a-a936-0caea195a149.JPG)
-![rollthedice4](https://user-images.githubusercontent.com/47723396/183961928-81543f36-590f-4a53-aed9-e0158d61cb66.JPG)
+![rollthediceexamples](https://user-images.githubusercontent.com/47723396/183962945-2cf23e78-4eba-42c0-b5ce-6dc870dcecdf.png)
+
 
 
