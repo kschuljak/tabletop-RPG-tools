@@ -22,12 +22,12 @@ https://codepen.io/collection/aMwZQo
     return output;
   }
   
-  // ...
+  // ... (code omitted for example) ...
   let secretGenerated = randomize(secretOptions);
   let secretAboutGenerated = randomize(secretAboutOptions);
 
   return (
-    // ...
+    // ... (code omitted for example) ...
     + secretGenerated + " " + secretAboutGenerated
   );
 ```
@@ -48,12 +48,12 @@ https://codepen.io/collection/aMwZQo
       if (lootArray <= commonWeapons) {
         lootArray = weapons.common;
       }
-      // ...
+      // ... (etc - code omitted for example) ...
       if (lootArray <= (commonWeapons + rareWeapons + commonClothing + rareClothing + commonTrinkets + rareTrinkets)) {
         lootArray = trinkets.rare;
       }
   
-    // ...
+    // ... (code omitted for example) ...
     let chestTotal = Math.floor(Math.random() * 3) + 1;
     let loot = ['<div class="item-break"> ~ </div>'];
     for (let i = 0; i < chestTotal; i++) {
