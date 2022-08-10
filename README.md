@@ -11,7 +11,8 @@ https://codepen.io/collection/aMwZQo
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
 
-![getcharacterexamples](https://user-images.githubusercontent.com/47723396/183964057-8b1e005b-7589-4234-952a-93ac90fbc4a7.png)
+![getcharacterexamples](https://user-images.githubusercontent.com/47723396/184031950-57362f90-cd06-4f7b-8901-2697f5d44647.png)
+
 
 # LOOT GENERATOR
 - randomly generates a list of loot between 1 to 3 items
@@ -21,7 +22,8 @@ https://codepen.io/collection/aMwZQo
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
 
-![getlootexamples](https://user-images.githubusercontent.com/47723396/183963509-25823c31-071e-40ec-8070-0390966b70cd.png)
+![getlootexamples](https://user-images.githubusercontent.com/47723396/184031964-68cc70ef-68f6-4af1-a6e6-386aa95a2582.png)
+
 
 
 # DICE ROLLER
@@ -29,7 +31,8 @@ https://codepen.io/collection/aMwZQo
 
 ![rollthedice](https://user-images.githubusercontent.com/47723396/183961885-4b4c7e03-98d7-424d-a849-f2f3f4598510.JPG)
 
-![rollthediceexamples](https://user-images.githubusercontent.com/47723396/183962945-2cf23e78-4eba-42c0-b5ce-6dc870dcecdf.png)
+![dicerollexamples](https://user-images.githubusercontent.com/47723396/184031976-7d0e76ca-a558-402a-908c-c338c76bde67.png)
+
 
 
 
