@@ -7,7 +7,7 @@ https://codepen.io/collection/aMwZQo
 PT 1: CHARACTER GENERATOR
 - randomly generates a fantasy character with name and flavor text
 - name is randomly generated between 1 to 3 syllables, with the first syllable coming from one array, and the second and third syllables coming from a second array
-- the flavortext is similarly generated, with each section taking a prompt from one array and combining it with an option from a second array
+- much of the flavortext is similarly generated, with each section taking a prompt from one array and combining it with an option from a second array
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
 
