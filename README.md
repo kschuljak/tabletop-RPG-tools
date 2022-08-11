@@ -72,7 +72,7 @@ https://codepen.io/collection/aMwZQo
 
 # DICE ROLLER
 - randomly generates a dice roll, from a D-4 to a D-100
-```
+```js
 function randomNum(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
