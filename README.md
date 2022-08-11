@@ -45,8 +45,8 @@ https://codepen.io/collection/aMwZQo
     let commonWeapons = 70;
     let rareWeapons = 30;
     let lootOptionTotal = commonWeapons + rareWeapons;
-    // ... (code omitted for example) ...
     
+    function getLootArray() {
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
       if (lootArray <= commonWeapons) { 
         lootArray = weapons.common; 
@@ -54,8 +54,9 @@ https://codepen.io/collection/aMwZQo
       if (lootArray <= (commonWeapons + rareWeapons)) {
         lootArray = weapons.rare;
       }
+      return lootArray;
+    }
   
-    // ... (code omitted for example) ...
     let chestTotal = Math.floor(Math.random() * 3) + 1;
     for (let i = 0; i < chestTotal; i++) {
       let genLootArray = getLootArray();
