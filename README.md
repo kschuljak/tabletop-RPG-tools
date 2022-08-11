@@ -4,7 +4,7 @@ A selection of generator tools to get dice rolls, character prompts, and more
 on codepen at
 https://codepen.io/collection/aMwZQo
 
-# 1) CHARACTER GENERATOR
+# CHARACTER GENERATOR
 - randomly generates a fantasy character with name and flavor text
 - name is randomly generated between 1 to 3 syllables, with the first syllable coming from one array, and the second and third syllables coming from a second array
 ```js
@@ -33,7 +33,7 @@ https://codepen.io/collection/aMwZQo
 ![getcharacterexamples](https://user-images.githubusercontent.com/47723396/184031950-57362f90-cd06-4f7b-8901-2697f5d44647.png)
 
 
-# 2) LOOT GENERATOR
+# LOOT GENERATOR
 - randomly generates a list of loot between 1 to 3 items
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
 ```js
@@ -75,7 +75,7 @@ let weapons = {
 ![getlootexamples](https://user-images.githubusercontent.com/47723396/184031964-68cc70ef-68f6-4af1-a6e6-386aa95a2582.png)
 
 
-# 3) DICE ROLLER
+# DICE ROLLER
 - randomly generates a dice roll, from a D-4 to a D-100
 ```js
 function randomNum(min, max) {
