@@ -22,13 +22,11 @@ https://codepen.io/collection/aMwZQo
     return output;
   }
   
-  // ... (code omitted for example) ...
   let secretGenerated = randomize(secretOptions);
   let secretAboutGenerated = randomize(secretAboutOptions);
 
   return (
-    // ... (code omitted for example) ...
-    + secretGenerated + " " + secretAboutGenerated
+    secretGenerated + " " + secretAboutGenerated
   );
 ```
 
