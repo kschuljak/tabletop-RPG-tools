@@ -36,6 +36,12 @@ https://codepen.io/collection/aMwZQo
 # LOOT GENERATOR
 - randomly generates a list of loot between 1 to 3 items
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
+```js
+let weapons = {
+  common: [...],
+  rare: [...]
+}
+```
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
 ```js
   function getLoot() {
