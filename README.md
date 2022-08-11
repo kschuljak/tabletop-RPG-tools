@@ -38,8 +38,8 @@ https://codepen.io/collection/aMwZQo
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
 ```js
 let weapons = {
-  common: [...],
-  rare: [...]
+  common: [/* ... array of strings */],
+  rare: [/* ... array of strings */]
 }
 ```
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
