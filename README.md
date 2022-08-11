@@ -25,9 +25,7 @@ https://codepen.io/collection/aMwZQo
   let secretGenerated = randomize(secretOptions);
   let secretAboutGenerated = randomize(secretAboutOptions);
 
-  return (
-    secretGenerated + " " + secretAboutGenerated
-  );
+  return (secretGenerated + " " + secretAboutGenerated);
 ```
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
