@@ -21,7 +21,6 @@ const randomize = (list) => {
    let output = list[Math.floor(Math.random() * list.length)];
    return output;
 }
-  
 let secretGenerated = randomize(secretOptions);
 let secretAboutGenerated = randomize(secretAboutOptions);
 
