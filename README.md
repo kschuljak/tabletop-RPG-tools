@@ -41,7 +41,7 @@ let weapons = {
    rare: [/* ... array of strings ... */]
 }
 ```
-- once a subcategory is chosen *chance weighted by category*, the item within that category is truly selected at random
+- once a category is chosen using assigned probability values, an item within that category is selected at random
 ```js
 function getLoot() {
    // each category is assigned a number value representing the odds of that array being selected
