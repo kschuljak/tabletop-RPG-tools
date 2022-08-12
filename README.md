@@ -58,11 +58,11 @@ function getLoot() {
    // the array for the selected category is then returned
    function getLootArray() {
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
-      // if the random number generated <= 70 (the value of commonWeapons), the weapons.common array is selected
+      // if the random number generated <= 70, the weapons.common array is selected
       if (lootArray <= commonWeapons) { 
          lootArray = weapons.common; 
       }
-      // if the random number generated is between 71 & 100 (the value of commonWeapons + rareWeapons), the weapons.rare array is selected
+      // if the random number generated is between 71 & 100, the weapons.rare array is selected
       if (lootArray <= (commonWeapons + rareWeapons)) {
          lootArray = weapons.rare;
       }
