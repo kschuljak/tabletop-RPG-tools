@@ -8,24 +8,24 @@ https://codepen.io/collection/aMwZQo
 - randomly generates a fantasy character with name and flavor text
 - name is randomly generated between 1 to 3 syllables, with the first syllable coming from one array, and the second and third syllables coming from a second array
 ```js
-  outputName += firstSyllable[Math.floor(Math.random() * firstSyllable.length)];
-  let randomNum = Math.floor(Math.random() * 3);
-  for (let i = 0; i < randomNum; i++) {     
-    outputName += secondSyllable[Math.floor(Math.random() * secondSyllable.length)];
-  }
-  return outputName;  
+outputName += firstSyllable[Math.floor(Math.random() * firstSyllable.length)];
+let randomNum = Math.floor(Math.random() * 3);
+for (let i = 0; i < randomNum; i++) {     
+   outputName += secondSyllable[Math.floor(Math.random() * secondSyllable.length)];
+}
+return outputName;  
 ```
 - much of the flavortext is similarly generated, with each section taking a prompt from one array and combining it with an option from a second array to increase the variety of responses
 ```js
-  const randomize = (list) => {
-    let output = list[Math.floor(Math.random() * list.length)];
-    return output;
-  }
+const randomize = (list) => {
+   let output = list[Math.floor(Math.random() * list.length)];
+   return output;
+}
   
-  let secretGenerated = randomize(secretOptions);
-  let secretAboutGenerated = randomize(secretAboutOptions);
+let secretGenerated = randomize(secretOptions);
+let secretAboutGenerated = randomize(secretAboutOptions);
 
-  return (secretGenerated + " " + secretAboutGenerated);
+return (secretGenerated + " " + secretAboutGenerated);
 ```
 
 ![charactergenerator1](https://user-images.githubusercontent.com/47723396/183959861-60f3ad5e-78c6-4a69-9bd6-0f6b48bd791d.JPG)
@@ -38,36 +38,45 @@ https://codepen.io/collection/aMwZQo
 - the three main loot categories are weapons, clothing, and trinkets, with each category subdivided into common and rare
 ```js
 let weapons = {
-  common: [/* ... array of strings */],
-  rare: [/* ... array of strings */]
+   common: [/* ... array of strings ... */],
+   rare: [/* ... array of strings ... */]
 }
 ```
 - once a subcategory is chosen chance weighted by category, the item within that category is truly selected at random
 ```js
-  function getLoot() {
-    let commonWeapons = 70;
-    let rareWeapons = 30;
-    let lootOptionTotal = commonWeapons + rareWeapons;
-    
-    function getLootArray() {
+function getLoot() {
+   // each category is assigned a number value representing the odds of that array being selected
+   let commonWeapons = 70;
+   let rareWeapons = 30;
+   // The number values assigned to each category are added together to create a total value
+   let lootOptionTotal = commonWeapons + rareWeapons;
+   
+   function getLootArray() {
+      // a random number < the total summed value of all categories is generated
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
+      // if the random number generated <= 70 (the value of commonWeapons), the weapons.common array is selected
       if (lootArray <= commonWeapons) { 
-        lootArray = weapons.common; 
+         lootArray = weapons.common; 
       }
+      // if the random number generated <= 100 (the value of commonWeapons + rareWeapons), the weapons.rare array is selected
       if (lootArray <= (commonWeapons + rareWeapons)) {
-        lootArray = weapons.rare;
+         lootArray = weapons.rare;
       }
+      // the selected array is returned
       return lootArray;
-    }
+   }
   
-    let chestTotal = Math.floor(Math.random() * 3) + 1;
-    let loot;
-    for (let i = 0; i < chestTotal; i++) {
+   // a random number between 1 & 3 is generated to represent the number of loot items to create
+   let chestTotal = Math.floor(Math.random() * 3) + 1;
+   let loot;
+   // for each loot item, the getLootArray() function is called to choose which category to select the item from
+   // the item is then chosen at random from that category's array and added to 'loot'
+   for (let i = 0; i < chestTotal; i++) {
       let genLootArray = getLootArray();
       loot += genLootArray[Math.floor(Math.random() * genLootArray.length)];
-    }
-    return loot;
-  }
+   }
+   return loot;
+}
 ```
 
 ![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
@@ -79,7 +88,7 @@ let weapons = {
 - randomly generates a dice roll, from a D-4 to a D-100
 ```js
 function randomNum(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 let rollD4 = () => randomNum(1, 4);
 let rollD6 = () => randomNum(1, 6);
