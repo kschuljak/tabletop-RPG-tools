@@ -46,13 +46,13 @@ let weapons = {
 ```js
 function getLoot() {
    // each category is assigned a number value representing the odds of that array being selected
+   // The number values assigned to each category are added together to create a total value
    let commonWeapons = 70;
    let rareWeapons = 30;
-   // The number values assigned to each category are added together to create a total value
    let lootOptionTotal = commonWeapons + rareWeapons;
    
+   // a random number < the total summed value of all categories is generated to select an array, which is then returned
    function getLootArray() {
-      // a random number < the total summed value of all categories is generated
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
       // if the random number generated <= 70 (the value of commonWeapons), the weapons.common array is selected
       if (lootArray <= commonWeapons) { 
@@ -62,15 +62,14 @@ function getLoot() {
       if (lootArray <= (commonWeapons + rareWeapons)) {
          lootArray = weapons.rare;
       }
-      // the selected array is returned
       return lootArray;
    }
   
    // a random number between 1 & 3 is generated to represent the number of loot items to create
-   let chestTotal = Math.floor(Math.random() * 3) + 1;
-   let loot;
    // for each loot item, the getLootArray() function is called to choose which category to select the item from
    // the item is then chosen at random from that category's array and added to 'loot'
+   let chestTotal = Math.floor(Math.random() * 3) + 1;
+   let loot;
    for (let i = 0; i < chestTotal; i++) {
       let genLootArray = getLootArray();
       loot += genLootArray[Math.floor(Math.random() * genLootArray.length)];
