@@ -33,7 +33,7 @@ return (secretGenerated + " " + secretAboutGenerated);
 
 
 # LOOT GENERATOR
-- randomly generates a list of loot between 1 & 3 items
+- randomly generates a list of loot between 1 to 3 items
 - the three main loot categories are `weapons`, `clothing`, and `trinkets`, with each category subdivided into `common` and `rare`
 ```js
 let weapons = {
