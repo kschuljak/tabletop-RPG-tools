@@ -55,7 +55,7 @@ function getLoot() {
    
    // a random number < the total summed value of all categories is generated 
    // this number is used to select a category using the probability scores assigned above
-   // the array for that category is then returned
+   // the array for the selected category is then returned
    function getLootArray() {
       let lootArray = Math.floor(Math.random()*lootOptionTotal);
       // if the random number generated <= 70 (the value of commonWeapons), the weapons.common array is selected
