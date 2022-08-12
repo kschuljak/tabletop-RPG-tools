@@ -62,7 +62,7 @@ function getLoot() {
       if (lootArray <= commonWeapons) { 
          lootArray = weapons.common; 
       }
-      // if the random number generated <= 100 (the value of commonWeapons + rareWeapons), the weapons.rare array is selected
+      // if the random number generated is between 71 & 100 (the value of commonWeapons + rareWeapons), the weapons.rare array is selected
       if (lootArray <= (commonWeapons + rareWeapons)) {
          lootArray = weapons.rare;
       }
