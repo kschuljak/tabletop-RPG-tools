@@ -8,6 +8,8 @@ https://codepen.io/collection/aMwZQo
 - randomly generates a fantasy character with name and flavor text
 - name is randomly generated between 1 to 3 syllables, with the first syllable coming from one array, and the second and third syllables coming from a second array
 ```js
+// A option is chosen at random from the firstSyllable array and added to the outputName
+// A random number between 0 & 2 is then generated, and an option is randomly selected from the secondSyllable array and added to the outputName that many times
 outputName += firstSyllable[Math.floor(Math.random() * firstSyllable.length)];
 let randomNum = Math.floor(Math.random() * 3);
 for (let i = 0; i < randomNum; i++) {     
