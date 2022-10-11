@@ -67,7 +67,7 @@ function getLoot() {
    }
   
    // a random number between 1 & 3 is generated to represent the number of loot items to create
-   // for each loot item, the getLootArray() function is called to choose which category to select the item from
+   // for each loot item, the getLootArray() function is called to choose which category to select from
    // the item is then chosen at random from that category and added to 'loot'
    let chestTotal = Math.floor(Math.random() * 3) + 1;
    let loot;
