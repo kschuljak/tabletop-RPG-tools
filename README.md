@@ -117,7 +117,7 @@ let roadEncounter = {
    }
 ```
 
-![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
+![encounters](https://user-images.githubusercontent.com/47723396/210652039-b7718903-9a68-4c9f-ac2f-6dcc3f9c3f43.jpg)
 
 ![getlootexamples](https://user-images.githubusercontent.com/47723396/184031964-68cc70ef-68f6-4af1-a6e6-386aa95a2582.png)
 
