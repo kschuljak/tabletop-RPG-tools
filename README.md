@@ -84,6 +84,45 @@ function getLoot() {
 ![getlootexamples](https://user-images.githubusercontent.com/47723396/184031964-68cc70ef-68f6-4af1-a6e6-386aa95a2582.png)
 
 
+# ENCOUNTER GENERATOR
+- randomly generates an encounter prompt based on assigned probability values and user-selected location
+- the three encounter locations are 'city', 'road', and 'forest', with each location having a 'common' and a 'rare' subcategory
+```js
+let roadEncounter = {
+   common: [/* ... array of strings ... */],
+   rare: [/* ... array of strings ... */]
+}
+```
+- once a category is chosen using assigned probability values and user input for location, an item within that category is selected at random
+```js
+   let common = 70;
+   let rare = 30;
+   let encounterOptionTotal = common + rare;
+
+   function getEncounterArray(location) {
+      let encounterArray = Math.floor(Math.random()*encounterOptionTotal);
+      if (location == "road") {
+         if (encounterArray <= common) encounterArray = roadEncounter.common;
+         else if (encounterArray < (common + rare)) encounterArray = roadEncounter.rare;
+      }
+      if (location == "city") {
+         if (encounterArray <= common) encounterArray = cityEncounter.common;
+         else if (encounterArray < (common + rare)) encounterArray = cityEncounter.rare;
+      }
+      if (location == "forest") {
+         if (encounterArray <= common) encounterArray = forestEncounter.common;
+         else if (encounterArray < (common + rare)) encounterArray = forestEncounter.rare;
+      }
+      return encounterArray;
+   }
+```
+
+![getloot1](https://user-images.githubusercontent.com/47723396/183961640-4c8c3757-4c7a-4fa0-979f-9b20e7a44ad8.JPG)
+
+![getlootexamples](https://user-images.githubusercontent.com/47723396/184031964-68cc70ef-68f6-4af1-a6e6-386aa95a2582.png)
+
+
+
 # DICE ROLLER
 - randomly generates a dice roll, from a D-4 to a D-100
 ```js
