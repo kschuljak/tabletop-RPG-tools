@@ -119,7 +119,7 @@ let roadEncounter = {
 
 ![encounters](https://user-images.githubusercontent.com/47723396/210652039-b7718903-9a68-4c9f-ac2f-6dcc3f9c3f43.jpg)
 
-![encounterexamples](https://user-images.githubusercontent.com/47723396/210652869-f9a9c7f5-f6de-4863-a9f1-e368a4a19b29.png)
+![encounterexamples](https://user-images.githubusercontent.com/47723396/210653312-5ef1ea89-883a-411a-a316-b5ee91d7b241.png)
 
 
 
